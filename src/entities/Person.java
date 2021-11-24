@@ -31,4 +31,6 @@ public abstract class Person {
     }
 
     public abstract boolean buyProduct(Product p);
+    public abstract int getID();
+    protected abstract boolean checkID();
 }
